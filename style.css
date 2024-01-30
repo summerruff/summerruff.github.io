@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-color: #364022;
+    font-family: 'Roboto', sans-serif;
+}
+#wrapper{
+    width: 80vw;
+    margin: 0 auto;
+    background-color: #727355;
+    padding: 3%;
+}
+
+header{
+    text-align: center;
+}
+h1, h2{
+    color: #D6ACF2;
+}
+#me{
+    border: 2px solid black;
+}
+main{
+    padding-top: 1%;
+}
+main p{
+    line-height: 30px;
+    text-indent: 30px;
+}
+h2{
+    font-style: italic;
+}
+section{
+    padding-bottom: 2%;
+}
+
+#movies li{
+    list-style-type: none;
+    padding-bottom: 1%;
+}
+#movies li:hover{
+    font-size: 1.2em;
+    color: #392259;
+    text-decoration: underline;
+}
