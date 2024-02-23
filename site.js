@@ -1,3 +1,4 @@
+// dynamic welcome assignment
 function welcome(){
     const hours = new Date().getHours() // get the current hour
     message = '' //string to be returned
@@ -19,3 +20,7 @@ function welcome(){
 
 h1 = document.querySelector('h1')
 h1.textContent = welcome()
+
+// secret message assignment
+const secretMessage = 'My favorite Zelda game is Breath of the Wild'
+localStorage.setItem(`It's a secret to everybody.`, secretMessage)
